@@ -5,6 +5,7 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+ 
 }
 
 .header {
@@ -29,6 +30,7 @@
 .header a.logo {
   font-size: 25px;
   font-weight: bold;
+  float: left;
 }
 
 /* Change the background color on mouse-over */
@@ -47,6 +49,9 @@
 /* Float the link section to the right */
 .header-right {
   float: right;
+}
+.header-left {
+  float: left;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -145,6 +150,16 @@ text-justify: auto;
 .default:hover {
   background: #e7e7e7;
 }
+.botones{
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
 
 @keyframes App-logo-spin {
   from {
