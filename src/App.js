@@ -5,19 +5,31 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <div class="header">
+  <a href="#default" class="logo"></a>
+  <div class="header-right">
+    <a class="active" href="#home">Home</a>
+    <a href="#contact">Music</a>
+    <a href="#about">News</a>
+    <a href="#about"> GottiGang</a>
+  </div>
+</div>
+    
+       
       </header>
+    <div className='body'>
+
+   <p className='titulos'> Music </p>
+   <button class="btn success">Spotify</button>
+   <button class="btn info">Amazon Music</button>
+   <button class="btn warning"> Youtube </button>
+   <button class="btn danger">Deezer </button>
+   <button class="btn default">Apple Music </button>
+   
+
+
+    </div>
+
     </div>
   );
 }

@@ -7,6 +7,48 @@
   pointer-events: none;
 }
 
+.header {
+  overflow: hidden;
+  background-color: rgb(215, 6, 6);
+  padding: 20px 10px;
+}
+
+/* Style the header links */
+.header a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* Change the background color on mouse-over */
+.header a:hover {
+  background-color: black;
+
+  color: white;
+}
+
+/* Style the active/current link*/
+.header a.active {
+
+  color:white;
+}
+
+/* Float the link section to the right */
+.header-right {
+  float: right;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -14,18 +56,94 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: rgb(215, 6, 6);
   display: flex;
-  flex-direction: column;
+  flex-direction: line;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: right;
+  font-size: 15px;
+  color: black;
+ padding: auto;
+ word-spacing: 7px;
+ letter-spacing: 6px;
+ border: 1px solid;
+text-justify: auto;
 }
+
+
 
 .App-link {
   color: #61dafb;
+}
+
+.titulos{
+  font-size: 90px;
+  color: white;
+  background-color: black;
+}
+
+.btn {
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Green */
+.success {
+  border-color: #04AA6D;
+  color: green;
+}
+
+.success:hover {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* Blue */
+.info {
+  border-color: #2196F3;
+  color: dodgerblue
+}
+
+.info:hover {
+  background: #2196F3;
+  color: white;
+}
+
+/* Orange */
+.warning {
+  border-color: #ff9800;
+  color: orange;
+}
+
+.warning:hover {
+  background: #ff9800;
+  color: white;
+}
+
+/* Red */
+.danger {
+  border-color: #f44336;
+  color: red
+}
+
+.danger:hover {
+  background: #f44336;
+  color: white;
+}
+
+/* Gray */
+.default {
+  border-color: #e7e7e7;
+  color: black;
+}
+
+.default:hover {
+  background: #e7e7e7;
 }
 
 @keyframes App-logo-spin {
