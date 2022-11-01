@@ -10,8 +10,10 @@
 
 .header {
   overflow: hidden;
-  background-color: rgb(215, 6, 6);
+  background-color:#f44336;
   padding: 20px 10px;
+  display: flex;
+  justify-content: space-between;
 }
 
 /* Style the header links */
@@ -48,10 +50,10 @@
 
 /* Float the link section to the right */
 .header-right {
-  float: right;
+
 }
 .header-left {
-  float: left;
+
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -60,7 +62,7 @@
   }
 }
 
-.App-header {
+/* .App-header {
   background-color: rgb(215, 6, 6);
   display: flex;
   flex-direction: line;
@@ -73,7 +75,7 @@
  letter-spacing: 6px;
  border: 1px solid;
 text-justify: auto;
-}
+} */
 
 
 

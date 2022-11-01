@@ -5,18 +5,20 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-      <div class="header">
+  <div class="header">
        
+    <div className='header-left'>
+      <img src="TiagoPZK.jpeg" alt="Tiago logo" height="100" width="100"   />
+    </div>
+    
   
-    <img src="TiagoPZK.jpeg" alt="Tiago logo" height="100" width="100" className='header-left'  />
- 
-  
-  <div class="header-right">
-    <a class="active" href="#home">Home</a>
-    <a href="#contact">Music</a>
-    <a href="#about">News</a>
-    <a href="#about"> GottiGang</a>
-  </div>
+    
+    <div class="header-right">
+      <a class="active" href="#home">Home</a>
+      <a href="#contact">Music</a>
+      <a href="#about">News</a>
+      <a href="#about"> GottiGang</a>
+    </div>
 </div>
      </header>
     <div className='body'>
