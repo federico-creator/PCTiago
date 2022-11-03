@@ -62,22 +62,6 @@
   }
 }
 
-/* .App-header {
-  background-color: rgb(215, 6, 6);
-  display: flex;
-  flex-direction: line;
-  align-items: center;
-  justify-content: right;
-  font-size: 15px;
-  color: black;
- padding: auto;
- word-spacing: 7px;
- letter-spacing: 6px;
- border: 1px solid;
-text-justify: auto;
-} */
-
-
 
 .App-link {
   color: #61dafb;
@@ -88,7 +72,6 @@ text-justify: auto;
   color: white;
   background-color: black;
 }
-
 .btn {
   border: 2px solid black;
   border-radius: 5px;
@@ -97,12 +80,26 @@ text-justify: auto;
   padding: 14px 28px;
   font-size: 16px;
   cursor: pointer;
+  border: #d8d8d8;
+  border-width: 3px;
+  border-style: solid;
+  border-radius:35px;
 }
 /*Si comento de la 90-97 se feo por si queremos hacer otra cosa*/
 /* Green */
 .success {
   border-color: #04AA6D;
-  color: green;
+  color: white;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  text-decoration:none;
+  background-color: black;
+  border-color: #04AA6D;
+  border-width: 3px;
+  border-style: solid;
+  border-radius:35px;
+ 
+
 }
 
 .success:hover {
@@ -113,7 +110,15 @@ text-justify: auto;
 /* Blue */
 .info {
   border-color: #2196F3;
-  color: dodgerblue;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  text-decoration:none;
+  background-color: black;
+  color: white;
+border-width: 3px;
+border-style: solid;
+border-radius:35px;
+
 
 }
 
@@ -126,6 +131,14 @@ text-justify: auto;
 .warning {
   border-color: #ff9800;
   color: orange;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  text-decoration:none;
+  background-color: black;
+  color: white;
+border-width: 3px;
+border-style: solid;
+border-radius:35px;
 
 }
 
@@ -137,31 +150,53 @@ text-justify: auto;
 /* Red */
 .danger {
   border-color: #f44336;
-  color: red
+  color: red;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  text-decoration:none;
+  background-color: black;
+  color: white;
+border-width: 3px;
+border-style: solid;
+border-radius:35px;
 }
 
 .danger:hover {
   background: #f44336;
-  color: white;
+  color:white;
 }
 
 /* Gray */
 .default {
   border-color: #e7e7e7;
   color: black;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  text-decoration:none;
+  background-color: black;
+  color: white;
+border-width: 3px;
+border-style: solid;
+border-radius:35px;
 }
 
 .default:hover {
   background: #e7e7e7;
 }
 .botones{
+  display: flex;
   border-radius: 5px;
   background-color: white;
   color: black;
-  padding: 14px 28px;
+  padding: 35px 282px;
   font-size: 16px;
   cursor: pointer;
   padding: 10 px;
+  flex-direction: column;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  width: 50%;
+  
 }
 
 
