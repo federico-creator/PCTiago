@@ -98,7 +98,9 @@
   border-width: 3px;
   border-style: solid;
   border-radius:35px;
- 
+  box-shadow: 4px 3px 8px 6px #04aa95;
+  margin-left: 5%;
+
 
 }
 
@@ -118,6 +120,8 @@
 border-width: 3px;
 border-style: solid;
 border-radius:35px;
+box-shadow: 4px 3px 8px 6px #2196F3;
+margin-left: 5%;
 
 
 }
@@ -129,8 +133,8 @@ border-radius:35px;
 
 /* Orange */
 .warning {
-  border-color: #ff9800;
-  color: orange;
+  border-color: #f44336;
+  color: #f44336;
   margin-top: 1%;
   margin-bottom: 1%;
   text-decoration:none;
@@ -139,18 +143,21 @@ border-radius:35px;
 border-width: 3px;
 border-style: solid;
 border-radius:35px;
+box-shadow: 4px 3px 8px 6px #f44336;
+margin-left: 5%;
+
 
 }
 
 .warning:hover {
-  background: #ff9800;
+  background: #f44336;
   color: white;
 }
 
 /* Red */
 .danger {
-  border-color: #f44336;
-  color: red;
+  border-color: #ff9800;
+  color:#ff9800;
   margin-top: 1%;
   margin-bottom: 1%;
   text-decoration:none;
@@ -159,10 +166,13 @@ border-radius:35px;
 border-width: 3px;
 border-style: solid;
 border-radius:35px;
+box-shadow: 4px 3px 8px 6px #ff9800;
+margin-left: 5%;
+
 }
 
 .danger:hover {
-  background: #f44336;
+  background: #ff9800;
   color:white;
 }
 
@@ -178,6 +188,9 @@ border-radius:35px;
 border-width: 3px;
 border-style: solid;
 border-radius:35px;
+box-shadow: 4px 3px 8px 6px #e7e7e7;
+margin-left: 5%;
+
 }
 
 .default:hover {
@@ -192,7 +205,6 @@ border-radius:35px;
   font-size: 16px;
   cursor: pointer;
   padding: 10 px;
-  flex-direction: column;
   margin-top: 10%;
   margin-bottom: 10%;
   width: 50%;
