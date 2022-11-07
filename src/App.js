@@ -8,7 +8,7 @@ function App() {
         <div class="header">
             
           <div className='header-left'>
-            <img src="TiagoPZK.jpeg" alt="Tiago logo" height="100" width="100"   />
+            <img src="https://www.tiagopzk.com/wp-content/uploads/2021/07/tiago-logo.svg" alt="Tiago logo" height="100" width="100"   />
           </div>
 
           <div class="header-right">
